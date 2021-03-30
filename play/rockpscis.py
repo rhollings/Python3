@@ -20,3 +20,10 @@ while True: #main game loop
     if playerMove == 'r' or playerMove == 'p' or playerMove == 's':
       break
     print('Choose r, p, s, or q.') #for different input
+    
+  if playerMove == 'r':
+    print('ROCK vs ...')
+  elif playerMove == 'p':
+    print('PAPER vs...')
+  elif playerMove == 's':
+    print('SCISSORS vs...')
