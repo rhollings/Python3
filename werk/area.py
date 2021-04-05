@@ -1,6 +1,7 @@
 #module to find area of shapes
 
 #functions should be called as such: name(number, number)
+# ex. triangle(4, 5)
 
 import math
 
@@ -11,5 +12,7 @@ def triangle(base, height):
 def rectangle(base, height):
     return base*height
   
-#circles?
+def circle(raduis):
+    return math.pi*(raduis**2)
+
 #what other shapes to think of?
