@@ -1,3 +1,9 @@
+'''ex. arr = [0,3,2,1]  
+        = true
+       arr = [3,5,5]
+        = false
+'''
+
 def validMountainArray(self, arr: List[int]) -> bool:
         
   if len(arr) < 3:
