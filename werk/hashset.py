@@ -1,4 +1,5 @@
 #designing a hash set, leetcode problem
+# https://youtu.be/NrMaQL_4Npo -- video that help me understand
 
 class LinkNode:
     def __init__(self, val):
