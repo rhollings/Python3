@@ -7,7 +7,7 @@ number1 = random.randint(1, 15)
 number2 = random.randint(1, 20)
 
 while True:
-    print('------------'*3)
+    print('================'*3)
     print("Movie Picker!!")
     while True:
         print("Would you like to watch a movie?? (y, n)")
@@ -21,4 +21,4 @@ while True:
     print('And go right {} times'.format(number2))
     print('This is your movie!!')
 
-    print("---------"*3)
+    print("================"*3)
