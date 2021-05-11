@@ -2,7 +2,7 @@
 import random
 import sys
 
-movies = ['Action', 'Adventure', 'Anime', 'Classic', 'Comedy', 'Horror', 'Thriller']
+movies = ['Action & Adventure', 'Popular', 'Anime', 'Classic', 'Comedy', 'Horror', 'Thriller']
 number1 = random.randint(1, 15)
 number2 = random.randint(1, 20)
 
