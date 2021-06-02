@@ -30,7 +30,7 @@ class MyHashSet:
         
 
     def remove(self, key: int) -> None:
-        # remove is to search value in a linkedlist
+        # remove searched value in a linkedlist
         bucket = self._hash(key)
         if not self.set[bucket]:
             return 
