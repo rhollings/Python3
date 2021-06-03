@@ -39,7 +39,7 @@ class LinkedList:
         return current
       else:
         current = current..next_node
-      return None
+    return None
   
   def __repr__(self):
     nodes = []
