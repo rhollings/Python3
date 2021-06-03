@@ -13,10 +13,10 @@ class LinkedList:
   def __init__(self):
     self.head = None
     
-  def is_empty(self):
+  def is_empty(self): #checks if the list is empty
     return self.head == None
   
-  def size(self):
+  def size(self): #counts the size of the list
     current = self.head
     count = 0
     
