@@ -41,6 +41,43 @@ class LinkedList:
         current = current..next_node
     return None
   
+  def insert(self, data, index):
+    if index == 0:
+      self.add(data)
+      
+    if index > 0:
+      new = Node(data)
+      position = index
+      current = self.head
+      
+      while position > 1:
+        current = node.next_node
+        position -= 1
+        
+      prev_node = current
+      next_node = current.next_node
+      
+      prev_node.next_node = new
+      new_node.next_node = next_node
+      
+  def remove(self, key):
+    current = self.head
+    previous = None
+    found = False
+    
+    while current and not found:
+      if current == key and current == self.head:
+        found = True
+        self.head = current.next_node
+      elif current.data == key:
+        found = True
+        previous.next_node = current.next_node
+      else:
+        previous = current
+        current = current.next_node
+        
+    return current
+  
   def __repr__(self):
     nodes = []
     current = self.head
