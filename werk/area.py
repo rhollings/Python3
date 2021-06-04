@@ -3,7 +3,7 @@
 #functions should be called as such: name(number, number)
 # ex. triangle(4, 5)
 
-#def shape(side_a, side_b)
+#def shape(side_a, side_b, ...)
     #return math
 
 import math
