@@ -54,3 +54,7 @@ blist = [94, 1, 46, 30, 7, 72, 10, 14, 17, 22]
 
 l = merge_sort(alist)
 print(l)
+print("===================="*3)
+print(verify_sorted(alist))
+print("===================="*3)
+print(verify_sorted(l))
