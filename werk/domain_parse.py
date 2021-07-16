@@ -7,3 +7,7 @@ domain_name("http://www.zombie-bites.com") == "zombie-bites"
 domain_name("https://www.cnet.com") == "cnet"
 """
 
+import re
+
+def domain_name(url):
+    return re.search('(https?://)?(www\d?\.)?(?P<name>[\w-]+)\.', url).group('name')
