@@ -7,6 +7,8 @@ domain_name("http://www.zombie-bites.com") == "zombie-bites"
 domain_name("https://www.cnet.com") == "cnet"
 """
 
+url = "http://github.com/carbonfive/raygun"
+
 import re
 
 def domain_name(url):
