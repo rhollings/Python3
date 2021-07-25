@@ -19,5 +19,13 @@ tickets([25, 25, 50]) # => YES
 tickets([25, 100]) # => NO. Vasya will not have enough money to give change to 100 dollars
 tickets([25, 25, 50, 50, 100]) # => NO. Vasya will not have the right bills to give 75 dollars of change (you can't make two bills of 25 from one of 50)
 
-def tickets(people):
-  #CODE HERE
+def tickets(a):
+    n25 = n50 = n100 = 0
+    for e in a:
+        if   e==25            : n25+=1
+        elif e==50            : n25-=1; n50+=1
+        elif e==100 and n50>0 : n25-=1; n50-=1
+        elif e==100 and n50==0: n25-=3
+        if n25<0 or n50<0:
+            return 'NO'
+    return 'YES'
