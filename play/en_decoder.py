@@ -18,10 +18,7 @@ For the sake of simplicity, you can assume that any numbers passed into the func
 """
 
 def encode(st):
-    str = ''
-    for x in st:
-        if x == 'a':
-            x.replace('a', '1')
+    return
         
     
 def decode(st):
