@@ -1,4 +1,5 @@
 #lotto number generator
+#other implemtations? 
 
 import random
 import sys
