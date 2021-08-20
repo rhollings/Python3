@@ -7,7 +7,7 @@ Play == games or misc scripts
  
 Werk == problems/algorithms/etc..
 
-# Favrorites 😱 👇
+# Favorites 😱 👇
 
 <a href="https://github.com/rhollings/Python3/blob/main/play/yo_mama.py">Yo Mama Jokes</a>
 
