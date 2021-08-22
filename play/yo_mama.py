@@ -1,3 +1,9 @@
+"""
+
+Would calling this on my portfolio be appropriate?? 
+
+"""
+
 import sys, requests
 
 response = requests.get("https://yomomma-api.herokuapp.com/jokes")
