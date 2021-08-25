@@ -1,6 +1,6 @@
 """
 
-Would calling this on my portfolio be appropriate?? 
+Could I implement this into an app?? 
 
 """
 
