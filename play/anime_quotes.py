@@ -1,4 +1,5 @@
 """
+Different urls for certain data
 url = https://animechan.vercel.app/api/random = calls a random quote
 url = https://animechan.vercel.app/api/quotes = calls ten random quotes
 url = https://animechan.vercel.app/api/quotes/anime?title=naruto = quotes by anime title
