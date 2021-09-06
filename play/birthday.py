@@ -23,4 +23,16 @@ else:
 """
 
 count = int(b_date[1]) - int(current_date_lst[1])
-print(f"Your birthday is in {count} month")
+if count == 0:
+    print(f"{name}, your birthday is this month")
+else: 
+    if count < 0:
+        count += 12
+        #print(f"{name}, your birthday is next year, in {count} months") Not needed
+    
+    if count == 1:
+        print(f"{name}, your birthday is in {count} month")
+
+    if count > 1:
+        print(f"{name}, your birthday is in {count} months")
+
