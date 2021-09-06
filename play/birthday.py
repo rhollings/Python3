@@ -10,7 +10,7 @@ b_date = input('Enter birthday in yyyy-mm-dd format: ')
 
 b_date = b_date.split('-')
 
-"""
+# if it is your bday today
 if current_date_lst[1] == b_date[1] and current_date_lst[2] == b_date[2]:
     age = int(current_date_lst[0]) - int(b_date[0])
     ordinal_suffix = {1: 'st', 2: 'nd', 3: 'rd', 11: 'th', 12: 'th', 13:
@@ -20,8 +20,9 @@ if current_date_lst[1] == b_date[1] and current_date_lst[2] == b_date[2]:
 
 else:
     print("Sorry, today is not your birthday")
-"""
 
+
+#how long until your bday
 count = int(b_date[1]) - int(current_date_lst[1])
 if count == 0:
     print(f"{name}, your birthday is this month")
