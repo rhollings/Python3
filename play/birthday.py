@@ -7,6 +7,7 @@ current_date_lst = current_date.split('-')
 
 name = input("What is your name? ")
 b_date = input('Enter birthday in yyyy-mm-dd format: ')
+#would it be better to ask for dates separately" 
 
 b_date = b_date.split('-')
 
