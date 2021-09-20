@@ -1,11 +1,9 @@
 # Python3
-Different implementations of python use
+Small series of python scripts
 
-In this repository, I wanted to group together scripts I've used over time
-
-Play == games or misc scripts
+Play == games/jokes/fun/stuff
  
-Werk == problems/algorithms/etc..
+Werk == problems/algorithms/hard stuff
 
 # Favorites 😱 👇
 
