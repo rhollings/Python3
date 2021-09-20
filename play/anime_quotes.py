@@ -6,6 +6,8 @@ url = https://animechan.vercel.app/api/quotes/anime?title=naruto = quotes by ani
 url = https://animechan.vercel.app/api/quotes/character?name=saitama = quotes by character 
 url = https://animechan.vercel.app/api/available/anime = all available anime
 """
+#lets allow options for different outputs
+#ask for who/what anime/character
 
 import urllib.request, json
 
