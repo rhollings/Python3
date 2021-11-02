@@ -25,7 +25,7 @@ def codeHere():
     counter = 0
     num = 0
     for i in inputData:
-        current = inputData.count(i)
+        current = inputData.count(i) # i believe the error starts here
         if current > counter:
             counter = current
             num = i
