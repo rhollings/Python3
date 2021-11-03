@@ -27,18 +27,18 @@ print(aplhabet_soup(word))
 # attempt 2 
 
 def alphabet_soup(string):
-  li = sorted(list(string))
-  lower_let = sorted(list(string.lower()))
+  li = sorted(list(string)) #sort string into list
+  lower_let = sorted(list(string.lower())) #sort the lowercase letters 
   caps = []
   new_string = ''
   
   for char in li:
-    if char.isupper():
+    if char.isupper(): #sort uppercase
       caps.append(char)
       
   for letter in lower_let:
     if caps.count(letter.upper()) != 0:
-      new_string += letter.upper()
+      new_string += letter.upper()  #puts string back together
       caps.pop(caps.index(letter.upper()))
     else:
       new_string += letter
