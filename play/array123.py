@@ -10,7 +10,7 @@ def array123(nums):
     if nums[i]==1 and nums[i+1]==2 and nums[i+2]==3: #checks if all are true
       return True
   return False
-=======================================================
+# =======================================================
 # Sorting function
 # example of how to sort through a list, str, array for nth smallest/largest element
 
