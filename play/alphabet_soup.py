@@ -26,3 +26,24 @@ print(aplhabet_soup(word))
 
 # attempt 2 
 
+def alphabet_soup(string):
+  li = sorted(list(string))
+  lower_let = sorted(list(string.lower()))
+  caps = []
+  new_string = ''
+  
+  for char in li:
+    if char.isupper():
+      caps.append(char)
+      
+  for letter in lower_let:
+    if caps.count(letter.upper()) != 0:
+      new_string += letter.upper()
+      caps.pop(caps.index(letter.upper()))
+    else:
+      new_string += letter
+      
+  return new_string
+
+word = input('Enter a String: ')
+print(aplhabet_soup(word))
