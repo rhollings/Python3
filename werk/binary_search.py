@@ -13,3 +13,13 @@ def binary_search(list, target):
       last = midpoint - 1
   
   return None 
+
+#invert binary tree
+
+'''
+def inver_tree(tree):
+  if tree is None:
+    return tree.left, tree.right = tree.right, tree.left
+  invert_tree(left.tree)
+  invert_tree(right_tree)
+'''
