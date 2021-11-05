@@ -9,3 +9,6 @@ Ex: Given the following strings s and t…
 s = "abc", t = "abcd", return -1.
 
 '''
+
+def index_of():
+  #code here
