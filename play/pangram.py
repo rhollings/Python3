@@ -8,5 +8,7 @@ Ignore numbers and punctuation.
 '''
 import string
 
+pangram = "The quick, brown fox jumps over the lazy dog!"
+
 def is_pangram(s):
     return False
