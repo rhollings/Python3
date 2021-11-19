@@ -1,4 +1,4 @@
-SQLite3 Project that stores files under a password
+<h3>SQLite3 Project that stores files under a password</h3>
 
 some requirements for the project: packages: imageio opencv-python
 
