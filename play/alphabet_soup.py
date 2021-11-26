@@ -27,8 +27,8 @@ print(aplhabet_soup(word))
 # attempt 2 
 
 def alphabet_soup(string):
-  li = sorted(list(string)) #sort string into list
-  lower_let = sorted(list(string.lower())) #sort the lowercase letters 
+  li = sorted(list(string)) #sorts string into list
+  lower_let = sorted(list(string.lower())) #sorts the lowercase letters 
   caps = []
   new_string = ''
   
