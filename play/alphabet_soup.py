@@ -11,7 +11,7 @@ B.) Input: "eLEPhAnt" Output: "AEehLnPt"
 
 '''
 
-# attempt 1
+# attempt 1 // brute force??
 
 def alphabet_soup(string):
   li = sorted(list(string)) # creates a list and sorts the letters
