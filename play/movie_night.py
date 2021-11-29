@@ -16,7 +16,8 @@ while True:
             sys.exit()
         if word == 'y':
             break
-    print('Go to genre: ',random.choice(movies))
+    #how the script will decide what to watch
+    print('Go to genre: ',random.choice(movies)) 
     print('Go down {} rows'.format(number1))
     print('And go right {} times'.format(number2))
     print('This is your movie!!')
