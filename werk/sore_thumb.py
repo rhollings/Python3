@@ -14,4 +14,4 @@ students = [1, 2, 3, 7, 5], return 3.
 '''
 
 def sore_thumb():
-  #code here
+  #code
