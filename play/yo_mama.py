@@ -11,6 +11,7 @@ joke = response.json()
 while True:
     print('Welcome....')
     print('=====================')
+    #moving request into loop could get new jokes each time
 
     while True:
         print("Would you like a 'yo mama' joke?")
