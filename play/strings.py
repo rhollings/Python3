@@ -1,3 +1,11 @@
+'''
+class str(object='')
+class str(object=b'', encoding='utf-8', errors='strict')
+Return a str version of object. See str() for details.
+
+str is the built-in string class. For general information about strings, see Text Sequence Type — str.
+'''
+
 # tips for working with strings 
 
 return strParam[::-1] # returns a string reversed 
