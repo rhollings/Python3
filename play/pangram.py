@@ -10,5 +10,24 @@ import string
 
 pangram = "The quick, brown fox jumps over the lazy dog!"
 
-def is_pangram(s):
-    return False
+def pangrams(s):
+    # Write your code here
+    s = s.lower()
+    alphabets_lower = list(string.ascii_lowercase) 
+    for alpha in alphabets_lower:
+        if not alpha in s:
+            return 'not pangram' 
+    return 'pangram'
+
+# make dict, if the dict has 26 chars, then all letters are there 
+def pangrams(s):
+    d={}
+    for i in s.replace(' ',''):
+        if i.lower() not in d:
+            d[i.lower()]=1
+        if len(d)==26:
+            return 'pangram'
+    return 'not pangram'
+#
+
+return 'pangram' if len(set(s.replace(' ','').lower()))==26 else 'not pangram'
