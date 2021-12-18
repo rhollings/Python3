@@ -38,7 +38,7 @@ Do not import any Python libraries. Assume that the start times are valid times.
 
 ### Development
 
-Write your code in `time_calculator.py`. For development, you can use `main.py` to test your `time_calculator()` function. Click the "run" button and `main.py` will run.
+For development, you can use `main.py` to test your `time_calculator()` function. Click the "run" button and `main.py` will run.
 
 ### Testing 
 
