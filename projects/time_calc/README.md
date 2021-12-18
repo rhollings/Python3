@@ -44,9 +44,6 @@ Write your code in `time_calculator.py`. For development, you can use `main.py` 
 
 The unit tests for this project are in `test_module.py`. We imported the tests from `test_module.py` to `main.py` for your convenience. The tests will run automatically whenever you hit the "run" button.
 
-### Submitting
-
-Copy your project's URL and submit it to freeCodeCamp.
 
 <img width="1440" alt="Screen Shot 2021-12-06 at 11 39 03 AM" src="https://user-images.githubusercontent.com/75183667/144832120-2bfe3620-5518-4399-9586-6bfb4952b1a6.png">
 
