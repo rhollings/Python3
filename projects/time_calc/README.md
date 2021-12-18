@@ -1,3 +1,5 @@
+<a href="https://replit.com/@rhollings/boilerplate-time-calculator-1#main.py" target="_blank">Link</a> to the assignment 👈
+
 ### Assignment
 
 Write a function named `add_time` that takes in two required parameters and one optional parameter:
