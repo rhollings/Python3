@@ -1,5 +1,5 @@
 # Python3
-Small series of python scripts
+Some quick descriptions of the folders 
 
 Play == games/jokes/fun/stuff
  
