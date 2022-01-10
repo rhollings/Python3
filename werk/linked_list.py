@@ -116,3 +116,18 @@ class LinkedList:
         prev=curr
         curr=next
     return prev  
+  
+  
+  def insertNodeAtPosition(llist, data, position):
+    temp=SinglyLinkedListNode(data)
+    if position==1:
+        temp.next=llist
+        return temp
+    curr=llist
+    for i in range(position-1):
+        curr=curr.next
+        if curr==None:
+            return llist
+    temp.next=curr.next
+    curr.next=temp
+    return llist
