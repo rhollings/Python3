@@ -105,3 +105,14 @@ class LinkedList:
         
       current = current.next_node
     return '-> '.join(nodes)
+  
+
+  def reverse(llist):
+    curr=llist
+    prev=None
+    while curr is not None:
+        next=curr.next
+        curr.next=prev
+        prev=curr
+        curr=next
+    return prev  
