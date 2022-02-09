@@ -1,3 +1,5 @@
+# Quiz Game example
+
 print("Welcome to Quiz Game!!!")
 
 is_playing = input("Would you like to play? (yes or no)  ")
