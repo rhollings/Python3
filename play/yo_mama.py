@@ -1,9 +1,3 @@
-"""
-
-Could I implement this into an app?? 
-
-"""
-
 import sys, requests
 
 response = requests.get("https://yomomma-api.herokuapp.com/jokes")
