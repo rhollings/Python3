@@ -15,3 +15,7 @@ Werk == problems/algorithms/hard stuff
 
 <a href="https://github.com/rhollings/Python3/blob/main/werk/password_generator.py">Password Generator</a>
 
+
+# Recommended Reads
+
+<a href="https://diveintopython3.net/strings.html" target="_blank">Strings</a> in Python
