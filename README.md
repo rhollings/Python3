@@ -16,6 +16,15 @@ Werk == problems/algorithms/hard stuff
 <a href="https://github.com/rhollings/Python3/blob/main/werk/password_generator.py">Password Generator</a>
 
 
-# Recommended Reads
+### Where I train
+
+<a href="https://www.codewars.com/dashboard">Codewars</a> 
+
+<a href="https://leetcode.com/problemset/all/">LeetCode</a> 
+
+<a href="https://www.hackerrank.com/dashboard">HackerRank</a> 
+
+
+### Recommended Reads
 
 <a href="https://diveintopython3.net/strings.html" target="_blank">Strings</a> in Python
