@@ -21,6 +21,9 @@ name = data["character"]
 anime = data["anime"]
 quote = data["quote"]
 
+def anime_quote():
+  quote = quote
+  return quote
 
 #print("In the anime", anime, ",", name, "said", quote)
 
