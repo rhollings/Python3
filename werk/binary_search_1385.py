@@ -19,15 +19,19 @@ def findTheDistanceValue(self, arr1: List[int], arr2: List[int], d: int) -> int:
         return ans
 
 
-# Binary Approach 
-
-
-
-
-
-
-
-
+# Binary Approach   90ms O(logn)
+def findTheDistanceValue(self, arr1: List[int], arr2: List[int], d: int) -> int:
+        result = len(arr1)
+        arr2.sort()
+        for num in arr1:
+            index = bisect.bisect(arr2, num)
+            if index < len(arr2) and abs(num - arr2[index]) <= d:
+                result -= 1
+                continue
+            if index > 0 and abs(num - arr2[index - 1]) <= d:
+                result -= 1
+                continue
+        return result
 
 '''
 Example 1:
