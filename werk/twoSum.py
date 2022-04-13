@@ -107,3 +107,27 @@ class Solution:
             
             # Else, we add nums[i], i as key-value pair to dict
             dictionary[nums[i]] = i
+
+            
+######################################################
+
+#   Approach - 4: Binary Search
+
+#   Runtime: 137ms   -   83.23%
+#   Memory: 14.9MB  -   91.21%
+
+######################################################  
+
+class Solution:
+    def twoSum(self, numbers: List[int], target: int) -> List[int]:
+            left = 0
+            right = len(numbers)-1
+
+            while left<right:
+                sum_ = numbers[left]+numbers[right] 
+                if sum_ < target:
+                    left +=1
+                elif sum_ > target:
+                    right -=1
+                else:
+                    return[left+1,right+1]
