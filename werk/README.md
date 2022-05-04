@@ -49,3 +49,6 @@ Return an enumerate object. iterable must be a sequence, an iterator, or some ot
 >>> list(enumerate(seasons, start=1))
 [(1, 'Spring'), (2, 'Summer'), (3, 'Fall'), (4, 'Winter')]
 ```
+
+# <a href="https://docs.python.org/3/tutorial/datastructures.html" target="_blank">Data Structures</a>
+`set()` : doesn't store duplicates 
