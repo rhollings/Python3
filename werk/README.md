@@ -51,5 +51,5 @@ Return an enumerate object. iterable must be a sequence, an iterator, or some ot
 ```
 
 # <a href="https://docs.python.org/3/tutorial/datastructures.html" target="_blank">Data Structures</a>
-`set()` : doesn't store duplicates 
+`set()` : doesn't store duplicates   
 `dict()` or dictionaries: can iterate using key, value or item
