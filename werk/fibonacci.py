@@ -1,5 +1,5 @@
 # fib number
-
+# Fn = Fn-1 + Fn-2
 
 def fib(n):
   if n <= 2:
