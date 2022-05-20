@@ -9,6 +9,8 @@ def fib(n):
 
 =================================
 # better for larger numbers
+# uses 'memoization' to store values without having to travese duplicate points
+
 def fib(n, memo = {}):
   if n in memo:
     return memo[n]
