@@ -18,6 +18,6 @@ def checklist_(clist):
             print('checked')
         else:
             clist[item] = 'needs attention'
-    print(clist)
+    return clist
 
 checklist_(check_dict)
