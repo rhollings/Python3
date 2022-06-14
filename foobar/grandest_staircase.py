@@ -1,7 +1,39 @@
 # OPTIMAL SOLUTIONS
 
+# MEMOIZATION 
+def answer(n):
+    # your code here
+    memo = [[0 for _ in range(n + 2)] for _ in range(n + 2)]
+    return staircase(1, n, memo) - 1
+
+def staircase(h, l, memo):
+    if memo[h][l] != 0:
+        return memo[h][l]
+    if l == 0:
+        return 1
+    if l < h:
+        return 0
+    memo[h][l] = staircase(h + 1, l - h, memo) + staircase(h + 1, l, memo)
+    return memo[h][l]
+
 # ========================================
 # BRUTE FORCE SOLUTIONS 
+
+# TOP-DOWN
+def solution(height, left):
+    # all the bricks have been used
+    if left == 0:
+        return 1
+
+    # not enough bricks to build a new stair
+    if left < height:
+        return 0
+
+    # either build a new stair now or try the next height (height + 1)
+    return solution(height + 1, left - height) + solution(height + 1, left)
+
+n = int(input())
+print(solution(1, n) - 1)
 
 '''
 The Grandest Staircase Of Them All
