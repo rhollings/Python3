@@ -28,3 +28,5 @@ Werk == problems/algorithms/hard stuff
 ### Recommended Reads
 
 <a href="https://diveintopython3.net/strings.html" target="_blank">Strings</a> in Python
+
+<a href="https://elitedatascience.com/python-web-scraping-libraries" target="_blank">Web Scraping</a>
