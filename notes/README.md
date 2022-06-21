@@ -1,4 +1,10 @@
-# Instead of learning solutions of LeetCode questions, understand patterns! 🙂
+# ML
+
+<a href="https://developers.google.com/machine-learning/guides/rules-of-ml#related_work" target="_blank">Google's ML Docs</a>
+
+# DS/Algo's
+
+Instead of learning solutions of LeetCode questions, understand patterns! 🙂
 
 For ex.
 
