@@ -8,6 +8,7 @@ No two diners are sitting in the same seat, and the social distancing guidelines
 Determine the maximum number of additional diners who can potentially sit at the table without social distancing guidelines being violated for any new or existing diners, assuming that the existing diners cannot move and that the additional diners will cooperate to maximize how many of them can sit down.
 Please take care to write a solution which runs within the time limit.
 '''
+from typing import List
 
 def getMaxAdditionalDinersCount(N: int, K: int, M: int, S: List[int]) -> int:
   S.sort()
