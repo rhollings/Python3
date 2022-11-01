@@ -6,8 +6,7 @@ def fib(n):
     return 1
   return fib(n-1) + fib(n-2)
 
-
-=================================
+# =================================
 # better for larger numbers
 # uses 'memoization' to store values without having to travese duplicate points
 
