@@ -20,8 +20,8 @@ If given a tree then
 - BFS
 
 If given a graph then
-- DFS
-- BFS
+- DFS (Depth-First Search)
+- BFS (Breadth-First Search) 
 
 If given a linked list then
 - Two pointers
